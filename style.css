@@ -12,3 +12,14 @@ body{
     border-radius: 15px; /*arredondar as bordas */
     color: #fff; /*deixando o login na cor branca*/
 }
+input{
+    padding: 15px; 
+    border: none; /*retirei a borda*/
+    outline: none; /*retirei a linha de fora que aparece quando clica*/
+    font-size: 15px; /*aumentei a fonte*/
+}
+button{
+    background-color: dodgerblue; /*cor do botão*/
+    border: none; /*retirei a borda*/
+    padding: 15px; /*distancia entre os elementos e a borda/*
+}
