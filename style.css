@@ -1,0 +1,14 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, cyan, rgb(177, 42, 148));
+}
+.tela-login{    
+    background-color: rgba(0, 0, 0, 0.9); /*alfa é a transparência*/
+    position: absolute; /*ocupa apenas o espaço de seus elementos*/
+    top: 50%; /*desci 50%*/
+    left: 50%; /*movi a esquerda 50%*/
+    transform: translate(-50%,-50%); /*centralizei a div no meio da pagina*/
+    padding: 80px; /* distantancia entre os elementos e a borda*/
+    border-radius: 15px; /*arredondar as bordas */
+    color: #fff; /*deixando o login na cor branca*/
+}
