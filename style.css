@@ -27,3 +27,7 @@ button{
     color: white; /*cor do "enviar"*/
     font-size: 15px; /*ajusatei tamanho da fonte*/
 }
+button:hover{ /*vai mudar a cor de fundo*/
+    background-color: deepskyblue; 
+    cursor: pointer; /*quando passo o mouse no botao, a cor muda*/
+}
